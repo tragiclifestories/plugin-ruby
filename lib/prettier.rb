@@ -4,7 +4,7 @@ require 'json' unless defined?(JSON)
 
 module Prettier
   PLUGIN = -File.expand_path('..', __dir__)
-  BINARY = -File.join(PLUGIN, 'node_modules', 'prettier', 'bin-prettier.js')
+  BINARY = -File.join(PLUGIN, 'node_modules', '.bin', 'pprettier')
   VERSION = -JSON.parse(File.read(File.join(PLUGIN, 'package.json')))['version']
 
   class << self

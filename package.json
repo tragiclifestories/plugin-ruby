@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/prettier/plugin-ruby#readme",
   "dependencies": {
+    "@mixer/parallel-prettier": "^1.0.0",
     "prettier": "^1.16.4"
   },
   "devDependencies": {
